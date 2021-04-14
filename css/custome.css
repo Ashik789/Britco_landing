@@ -1,0 +1,54 @@
+.registration-form{background:#002D5C; padding: 20px; border-radius: 8px; margin: 0 auto; width: 50%;-webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.2);-moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.2);box-shadow:4px 4px 5px 0px rgba(50, 50, 50,0.5);}
+.registration-form h4{color:#fff; margin-bottom: 10px;}
+.registration-form input{width:100%; border-radius:6px; padding: 5px 12px; border:none; color:#000; margin-bottom: 10px;}
+.registration-form textarea{width:100%; border-radius:6px; padding: 5px 12px; border:none; color:#000; margin-bottom: 10px; resize: none; outline:none;}
+.registration-form label{color:#fff;}
+.registration-form button{color:#fff; background:#4bc5f1; width: 100%; padding: 8px; border:none; border-radius:30px; transition: all .3s ease-in; cursor: pointer;}
+.registration-form button:hover{background:#fff; color:#002D5C;}
+img{max-width: 100%;}
+.ChatBut { position: fixed; left: 5px; bottom:9%; z-index: 1000; font-family: Aller; font-size: 12px; line-height: 12px;
+text-transform: capitalize; color: white; cursor: pointer;}
+.ChatBut img{width: 40px;}
+.ChatBut a{display: block;}
+.floating-wpp {position: fixed; bottom: 10px;left: 5px; font-size: 14px;transition: bottom 0.2s;}
+.floating-wpp .floating-wpp-button {position: relative; width: 40px; height: 40px; background-color: #25D366; border-radius: 50%;
+box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.4); transition: box-shadow 0.2s; cursor: pointer; overflow: hidden;}
+.floating-wpp .floating-wpp-button img, .floating-wpp .floating-wpp-button svg { position: absolute; width: 100%; height: auto;
+object-fit: cover; top: 50%; left: 50%; transform: translate3d(-50%, -50%, 0);}
+.floating-wpp:hover {bottom: 10px;}
+.floating-wpp:hover .floating-wpp-button { box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.4);}
+.floating-wpp .floating-wpp-popup {/*border: 2px solid white;*/ border-radius: 6px; background-color: #E5DDD5; position: absolute;
+overflow: hidden; padding: 0; box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.25); width: 0px; height: 0px; bottom: 0; opacity: 0;
+transition: bottom 0.1s ease-out, opacity 0.2s ease-out; transform-origin: bottom;}
+.floating-wpp .floating-wpp-popup.active {padding: 0 12px 12px 12px; width: 260px; height: auto; left:5px; bottom: 82px;
+  opacity: 1;}
+.floating-wpp .floating-wpp-popup .floating-wpp-message {background-color: white; padding: 8px; border-radius: 0px 5px 5px 5px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15); opacity: 0; transition: opacity 0.2s;}
+.floating-wpp .floating-wpp-popup.active .floating-wpp-message { opacity: 1; transition-delay: 0.2s;}
+.floating-wpp .floating-wpp-popup .floating-wpp-head { text-align: right; color: white; margin: 0 -15px 10px -15px; padding: 6px 12px; display: flex; justify-content: space-between; cursor: pointer;}
+.floating-wpp .floating-wpp-input-message {background-color: white; margin: 10px -15px -15px -15px; padding: 0 15px;
+display: flex; align-items: center;}
+.floating-wpp .floating-wpp-input-message textarea {border: 1px solid #ccc; border-radius: 4px; box-shadow: none; padding: 8px;
+margin: 10px 0; width: 100%; max-width: 100%; font-family: inherit; font-size: inherit; resize: none; color:#878787 !important;}
+.floating-wpp .floating-wpp-btn-send {margin-left: 12px; font-size: 0; cursor: pointer;}
+.enthukondu .custom-li li{width: 100%; font-size-adjust: 14px;}
+.line-1{width: 100px; height:3px; background:#4bc5f1; margin-bottom: 20px; position: relative;}
+.line-2{width: 150px; height:3px; background:#4bc5f1; margin:20px auto; position: relative;}
+.line-1::before{content:''; position: absolute; width: 15px; height: 15px; background:#4bc5f1; bottom:-6px; animation: ellipse-animation 2.4s cubic-bezier(0, -0.26, 0.32, 1.22) 0s infinite;}
+.enthukondu h4{line-height: 36px;}
+.mattethu{background:#002D5C; padding: 20px; border-radius: 8px; -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.2);-moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.2);box-shadow:4px 4px 5px 0px rgba(50, 50, 50,0.5); color:#fff; font-size: 13px;}
+.mattethu h4{color:#fff;}
+.important{background:#4bc5f1; border-radius: 5px; font-size: 14px; padding: 10px; margin: 0px;}
+.mr-top50{margin-top:50px;}
+.our-branches{}
+.our-branches h3{color:#002D5C; font-weight: 700; margin-bottom: 10px;}
+.our-branches h5{font-size: 14px; margin-bottom: 0px;}
+.our-branches h4{color:#000; font-size:18px; letter-spacing:1px;}
+.branch-list{margin-top: 15px;}
+
+@media screen and (max-width: 769px){
+.why-choose .custom-li li{width:100%;}
+}
+@media screen and (max-width: 767px){
+  .registration-form{width: 80%;}
+}
